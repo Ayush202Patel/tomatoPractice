@@ -8,23 +8,22 @@
   width: 150px;
 }
 .navbar-menu {
-  display: flex;
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 20px;
-  color: #49557e;
   font-size: 18px;
 }
 .navbar-right {
-  display: flex;
-  align-items: center;
   gap: 40px;
+  display: flex;
+  justify-content: space-between;
 }
-.navbar button {
+.navbar-right button {
+  background-color: tomato;
   background: transparent;
-  font-size: 16px;
-  color: #49557e;
-  border: 1px solid tomato;
   padding: 10px 30px;
   border-radius: 50px;
-  cursor: pointer;
+  border: 1px solid tomato;
 }

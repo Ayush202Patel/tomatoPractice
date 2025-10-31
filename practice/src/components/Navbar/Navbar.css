@@ -4,28 +4,50 @@
   align-items: center;
   padding-top: 20px;
 }
+
 .navbar-logo {
   width: 150px;
 }
+
 .navbar-menu {
   list-style: none;
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
+
+.navbar-menu li {
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .navbar-right {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
-/* .basket-icon {
-  gap: 30px;
-} */
+
 .navbar button {
-  /* gap: 30px; */
   background: transparent;
   border: 2px solid tomato;
-  padding: 10px 25px;
+  padding: 12px 25px;
   border-radius: 50px;
 }
+
 .active {
+  border-bottom: 1px solid black;
+}
+
+.basket {
+  position: relative;
+}
+
+.basket .dot {
+  position: absolute;
+  background-color: tomato;
+  padding: 4px;
+  border: 2px solid tomato;
+  border-radius: 50%;
+  top: -8px;
+  right: -8px;
 }

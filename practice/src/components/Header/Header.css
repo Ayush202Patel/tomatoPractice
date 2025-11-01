@@ -9,7 +9,26 @@
     padding: 80px;
 }
 
-.hero h1 {
-    font-size: 60px;
+.header-content {
+    margin-top: 50px;
+    width: 60%;
+}
+
+.hero p {
     color: white;
+    line-height: 1.5;
+}
+
+.hero h1 {
+    font-size: 65px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header-content button {
+    margin-top: 20px;
+    color: grey;
+    padding: 20px 40px;
+    border-radius: 35px;
+    border: 1px solid white;
 }

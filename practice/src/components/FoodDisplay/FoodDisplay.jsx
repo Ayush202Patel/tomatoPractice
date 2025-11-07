@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { StoreContext } from "../../context/StoreContext";
 
 const FoodDisplay = () => {
-  return <div></div>;
+  const { food_list } = useContext(StoreContext);
+  return (
+    <div className="food-display" id="food-display">
+      <h2>Top Dishes near ypu</h2>
+    </div>
+  );
 };
 
 export default FoodDisplay;

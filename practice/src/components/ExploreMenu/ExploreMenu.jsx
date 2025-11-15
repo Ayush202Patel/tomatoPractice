@@ -17,6 +17,7 @@ const ExploreMenu = () => {
             <div className="explore-menu-list-item">
               <img src={item.menu_image} alt="" />
               <p>{item.menu_name}</p>
+              <p>Hello</p>
             </div>
           );
         })}

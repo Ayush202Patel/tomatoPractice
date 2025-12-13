@@ -5,8 +5,8 @@ import ExploreMenu from "../../components/ExploreMenu/ExploreMenu";
 const Home = () => {
   return (
     <div>
-      <Header />
-      <ExploreMenu />
+      {/* <Header /> */}
+      {/* <ExploreMenu /> */}
     </div>
   );
 };

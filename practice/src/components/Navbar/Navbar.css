@@ -1,0 +1,47 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-menu ul li {
+    padding: 0px 10px;
+}
+
+.dot {
+    display: flex;
+    position: absolute;
+}
+
+.cart-icon {
+    padding: 10px;
+}
+
+.dot img {
+    position: relative;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right div {
+    margin: 0 40px;
+}
+
+.navbar-right div:nth-child(3) {
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin-left: 20px;
+}

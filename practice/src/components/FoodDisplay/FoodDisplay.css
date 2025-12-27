@@ -1,0 +1,4 @@
+.food-display {
+    display: flex;
+    justify-content: space-between;
+}

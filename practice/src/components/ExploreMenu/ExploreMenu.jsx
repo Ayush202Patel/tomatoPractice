@@ -1,5 +1,6 @@
 import React from "react";
 import "./ExploreMenu.css";
+import { menu_list } from "../../assets/assets";
 const ExploreMenu = () => {
   return (
     <div className="exploreMenu">
@@ -10,6 +11,16 @@ const ExploreMenu = () => {
         is to satisfy your carvings and elevate your dining experience,one
         delecious meal at a time
       </p>
+      <div className="explore-menu-items">
+        {menu_list.map((item) => {
+          return (
+            <div className="explore-menu-item">
+              <img src={item.menu_image} alt="" />
+              <p>{item.menu_name}</p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
